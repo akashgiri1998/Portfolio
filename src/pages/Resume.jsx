@@ -15,7 +15,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   "pdfjs-dist/build/pdf.worker.min.js",
   import.meta.url
 ).toString();
-const resumeLink = `https://github.com/akashgiri1998/CV/blob/main/AkashCV.pdf?raw=true`;
+const resumeLink = `https://akashgiri1998.github.io/CV/AkashCV.pdf`;
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
@@ -24,7 +24,6 @@ const Resume = () => {
   function onDocumentLoadSuccess({ numPages }) {
     setNumPages(numPages);
   }
-  console.log("numpage", numPages);
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
@@ -43,22 +42,20 @@ const Resume = () => {
             &nbsp;Download Resume
           </Button>
         </Row>
-        <Col>
-          <Row className="resume">
-            <Document
-              file={pdf}
-              className="d-flex justify-content-center"
-              onLoadSuccess={onDocumentLoadSuccess}>
-              {Array.from({ length: numPages }, (_, index) => (
-                <Page
-                  key={`page_${index + 1}`}
-                  pageNumber={index + 1}
-                  scale={width > 786 ? 1 : 0.45}
-                />
-              ))}
-            </Document>
-          </Row>
-        </Col>
+        <Row className="resume">
+          <Document
+            file={resumeLink}
+            className="d-flex justify-content-center"
+            onLoadSuccess={onDocumentLoadSuccess}>
+            {Array.from({ length: numPages }, (_, index) => (
+              <Page
+                key={`page_${index + 1}`}
+                pageNumber={index + 1}
+                scale={width > 786 ? 1 : 0.45}
+              />
+            ))}
+          </Document>
+        </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
