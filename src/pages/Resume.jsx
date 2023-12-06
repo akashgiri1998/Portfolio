@@ -15,7 +15,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   "pdfjs-dist/build/pdf.worker.min.js",
   import.meta.url
 ).toString();
-const resumeLink = `https://akashgiri1998.github.io/Portfolio/src/assets/AkashCV.pdf`;
+const resumeLink = `https://akashgiri1998.github.io/Portfolio/src/assets/AkashCV.pdf?raw=true`;
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
