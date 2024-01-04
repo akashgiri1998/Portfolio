@@ -44,7 +44,7 @@ const Projects = () => {
               isBlog={false}
               title="KU Canteen Management System"
               description="KU Canteen Management System is a desktop application developed using Python(PyQt5) replacing the traditional coupon system for buying foods into technical"
-              ghLink="https://github.com/akashgiri1998/KU_CANTEEN_ManagementSystem"
+              ghLink="https://github.com/akashgiri1998/canteen-mngmt-sys"
             />
           </Col>
         </Row>

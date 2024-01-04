@@ -49,7 +49,7 @@ const Resume = () => {
               <Page
                 key={`page_${index + 1}`}
                 pageNumber={index + 1}
-                scale={width > 786 ? 1 : 0.45}
+                scale={width > 786 ? 1 : 0.4}
               />
             ))}
           </Document>

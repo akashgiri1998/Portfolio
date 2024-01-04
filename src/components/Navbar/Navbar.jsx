@@ -31,10 +31,10 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}>
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="/" className="d-flex navbar-expand-md pt-3 pb-3">
           <img
             src={profilePic}
-            className="rounded-circle logo border border-3 border-primary ratio ratio-1x1"
+            className="logo border border-info border-3 rounded-circle w-100"
             alt="brand"
           />
         </Navbar.Brand>
