@@ -10,17 +10,16 @@ const About = () => {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="yellow"> INTRODUCE </span> MYSELF
+              LET ME <span className="yellow"> INTRODUsCE </span> MYSELF
             </h1>
             <p className="home-about-body">
               Hi, I am <span className="yellow"> Akash Giri </span>
-              and I'm from <span className="yellow"> Toronto, Ontario</span>
+              and I'm originally from <span className="yellow"> Nepal and Currently in Toronto, Ontario</span>
               <br />
               <br />
               I graduated with a Bachelor's degree in Computer Engineering in
               2020 and currently pursuing Ontario Graduate Certificate in
               Computer Software and Database Development.
-              <br />
               <br />
               As a
               <b className="yellow">
