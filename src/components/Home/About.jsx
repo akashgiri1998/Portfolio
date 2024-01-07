@@ -10,8 +10,7 @@ const About = () => {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="yellow"> INTRODUsCE </span> MYSELF
-            </h1>
+              <span className="yellow">Introduction</span>             </h1>
             <p className="home-about-body">
               Hi, I am <span className="yellow"> Akash Giri </span>
               and I'm originally from <span className="yellow"> Nepal and Currently in Toronto, Ontario</span>
@@ -24,7 +23,7 @@ const About = () => {
               As a
               <b className="yellow">
                 {" "}
-                Software developer with professional experience of more than 2
+                Software developer with professional experience of more than 3
                 years in Mobile Application Development based on React Native{" "}
               </b>
               , I enjoy tackling new challenges and continuously expanding my
