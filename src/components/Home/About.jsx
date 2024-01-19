@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 
 const About = () => {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section">
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -23,15 +23,15 @@ const About = () => {
               As a
               <b className="yellow">
                 {" "}
-                Software developer with professional experience of more than 3
-                years in Mobile Application Development based on React Native{" "}
+                Software developer with professional experience of more than 2
+                years in Fronend based on React and Mobile Application Development based on React Native{" "}
               </b>
               , I enjoy tackling new challenges and continuously expanding my
               skillset.
               <br />
               <br />I am proficient in
               <b className="yellow"> Javascript and TypeScript </b>
-              as well as have knowledge in programming languages such as C, C++
+              as well as have knowledge in programming languages such as C++,
               Java, Python,
               <b className="yellow"> GraphQL,etc.</b>
               <br />

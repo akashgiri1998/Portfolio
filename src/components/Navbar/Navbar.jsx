@@ -10,6 +10,8 @@ import {
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 import profilePic from "../../assets/akash.jpg";
+import { GiSkills } from "react-icons/gi"
+
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -61,13 +63,21 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/"
+                to="/about"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About Me
               </Nav.Link>
             </Nav.Item>
-
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/skillset"
+                onClick={() => updateExpanded(false)}
+              >
+                <GiSkills style={{ marginBottom: "2px" }} /> Skillset
+              </Nav.Link>
+            </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}

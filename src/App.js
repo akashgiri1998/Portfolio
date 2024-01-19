@@ -15,10 +15,13 @@ import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Preloader from "./components/PreLoader";
 import ScrollToTop from "./components/ScrollToTop";
+import Skill from './pages/Skillset'
+
 
 import "./App.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import About from "./components/Home/About";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -39,6 +42,7 @@ function App() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/skillset" element={<Skill />} />
           <Route path="/project" element={<Project />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />

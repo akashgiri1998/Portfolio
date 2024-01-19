@@ -5,7 +5,7 @@ const Type = () => {
   return (
     <Typewriter
       options={{
-        strings: ["React Native Mobile Application Developer"],
+        strings: ["Software Developer"],
         autoStart: true,
         loop: true,
         deleteSpeed: 50,
