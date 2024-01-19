@@ -44,10 +44,11 @@ function NavBar() {
             className="logo border border-info border-3 rounded-circle w-3 h-auto"
             alt="brand"
           />
-        </Navbar.Brand>
-        <div className="d-flex my-auto pt-2">
-          <h3 className="text-white">Akash Giri</h3>
+           <div className="d-flex my-auto ">
+          <h3 className="text-white m-3">Akash Giri</h3>
         </div>
+        </Navbar.Brand>
+       
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
