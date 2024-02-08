@@ -16,7 +16,8 @@ import {
   SiStorybook,
   SiExpress,
   SiPostgresql,
-  SiPython
+  SiPython,
+  SiNextdotjs
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -35,11 +36,15 @@ const Techstack = () => {
         <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextdotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      
       <Col xs={4} md={2} className="tech-icons">
         <SiExpress />
       </Col>

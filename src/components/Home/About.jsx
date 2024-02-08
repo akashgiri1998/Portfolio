@@ -10,10 +10,10 @@ const About = () => {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              <span className="yellow">Introduction</span>             </h1>
+              <span >Introduction</span>             </h1>
             <p className="home-about-body">
-              Hi, I am <span className="yellow"> Akash Giri </span>
-              and I'm originally from <span className="yellow"> Nepal and Currently in Toronto, Ontario</span>
+              Hi, I am Akash Giri
+              and I'm originally from Nepal and Currently in Toronto, Ontario
               <br />
               <br />
               I graduated with a Bachelor's degree in Computer Engineering in
@@ -21,39 +21,34 @@ const About = () => {
               Computer Software and Database Development.
               <br />
               As a
-              <b className="yellow">
                 {" "}
-                Software developer with professional experience of more than 2
-                years in Fronend based on React and Mobile Application Development based on React Native{" "}
-              </b>
+                Software developer with professional experience of almost 3
+                years in Front-end based on React and Mobile Application Development based on React Native{" "}
               , I enjoy tackling new challenges and continuously expanding my
               skillset.
               <br />
               <br />I am proficient in
-              <b className="yellow"> Javascript and TypeScript </b>
+              Javascript and TypeScript
               as well as have knowledge in programming languages such as C++,
               Java, Python,
-              <b className="yellow"> GraphQL,etc.</b>
+              GraphQL,etc.
               <br />
               <br />I have a passion working with{" "}
-              <b className="yellow">
                 Node.js, MongoDB, PostgreSQL, Express.js
-              </b>{" "}
+              {" "}
               and
               <i>
-                <b className="yellow">
                   {" "}
                   modern Javascript libraries and frameworks
-                </b>
               </i>
               &nbsp; like
               <i>
-                <b className="yellow"> React.js</b>
+                 React.js
               </i>
               <br />
               <br />I am also interested in learning and developing new
               <i>
-                <b className="yellow"> Web Technologies and Products </b>
+                 Web Technologies and Products
               </i>
               <br />
             </p>
