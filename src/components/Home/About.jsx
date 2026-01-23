@@ -13,7 +13,7 @@ const About = () => {
               <span >Introduction</span>             </h1>
             <p className="home-about-body">
               Hi, I am Akash Giri
-              and I'm originally from Nepal and Currently in Toronto, Ontario
+              and I'm originally from Nepal and Currently in Victoria, British Columbia
               <br />
               <br />
               I graduated with a Bachelor's degree in Computer Engineering in
