@@ -48,5 +48,8 @@
   },
   "devDependencies": {
     "pdfjs-dist": "^3.2.146"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
