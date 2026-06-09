@@ -8,7 +8,6 @@ import {
 
 import Home from "./pages/Home";
 import Project from "./pages/Projects";
-import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
 import Navbar from "./components/Navbar/Navbar";
@@ -22,6 +21,7 @@ import "./App.css";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./components/Home/About";
+import Certifications from "./pages/Certifications";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -44,9 +44,11 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/skillset" element={<Skill />} />
           <Route path="/project" element={<Project />} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/certifications" element={<Certifications />} />
+
           <Route path="*" element={<Navigate to="/" />} />
+
         </Routes>
         <Footer />
       </div>

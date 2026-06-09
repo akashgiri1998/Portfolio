@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import { BsGithub,BsGlobe } from "react-icons/bs";
 
 const ProjectCard = (props) => {
   return (
@@ -51,10 +51,13 @@ const ProjectCard = (props) => {
             textAlign: "center",
             position: "relative",
             bottom: "0px",
+            color:'white'
           }}
         >
-          <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          <div style={{color:"white",justifyContent:'center',alignItems:'center'}}>
+          {props.ghLink && props.isBlog?<BsGlobe/>:<BsGithub /> }&nbsp;
+          {props.isBlog ? "Go To Website" : "Go To Github"}
+          </div>
         </Button>
         }
         {"\n"}

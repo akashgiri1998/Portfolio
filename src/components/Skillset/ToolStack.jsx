@@ -4,10 +4,8 @@ import { DiGit } from "react-icons/di";
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiHeroku,
   SiVercel,
-  SiNetlify,
-  SiJirasoftware
+  SiJirasoftware,
 } from "react-icons/si";
 
 const Toolstack = () => {
@@ -28,6 +26,8 @@ const Toolstack = () => {
       <Col xs={4} md={2} className="tech-icons">
         <SiJirasoftware />
       </Col>
+    
+
     </Row>
   );
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
@@ -7,6 +6,7 @@ import meroyatra from "../assets/projects/meroyatra.jpg";
 import motorbazar from "../assets/projects/motorbazar.jpg";
 import vinhood from "../assets/projects/vinhood.png"
 import triplocator from "../assets/projects/triplocator.png"
+import akarien from "../assets/projects/akarien.png"
 
 const Projects = () => {
   return (
@@ -22,10 +22,20 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={akarien}
+              isBlog
+              title="Akarien: Sasto Wear"
+              ghLink={"https://akarien.vercel.app/"}
+              description="Founded in 2026, AKARIÉN sells premium outfits inspired by local aesthetic values"
+            />
+          </Col>
+    
+        <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={vinhood}
               isBlog={false}
               title="Vinhood"
-              description="Vinhood is a wine recommendation platform that shows the wine for customer’s based on their taste. This is my work project at Touchware IT Service Pvt. Ltd.(Kotuko), later continued involving at Vinhood Company. At Vinhood we have been working for years to guide people through a more targeted and informed choice of the products they love. Find content , experiences , games , quizzes and daily and personalized tips , to enjoy your favorite products even better. Technologies used are React Native, Redux, Storybook, Javascript, Typescript, git, JIRA,API's,etc"
+              description="Vinhood is a wine recommendation platform that shows the wine for customer’s based on their taste. This is my work project at Touchware IT Service Pvt. Ltd.(Kotuko), later continued involving at Vinhood Company. Vinhood have been working for years to guide people through a more targeted and informed choice of the products they love. Find content , experiences , games , quizzes and daily and personalized tips , to enjoy your favorite products even better. Technologies used are React Native, Redux, Storybook, Javascript, Typescript, git, JIRA, API's,etc"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -35,7 +45,7 @@ const Projects = () => {
               title="Triplocator"
               description="Created a ReactJS-based admin interface for the website and transitioned an
               existing React web app of TripLocator which is an online travel company which specializes in providing travel services to destinations around the globe to React Native, meeting project
-              requirements and enhancing the platform's administrative capabilities. This is my professional project developed at Softhover. Technologies used are React, React Native, HTML, CSS, JavaScript, Redux, Api's, etc."
+              requirements and enhancing the platform's administrative capabilities. This is my professional project developed at Softhover. Technologies used are React, React Native, HTML, CSS, JavaScript, Redux, API's, etc."
             />
           </Col>
           

@@ -13,18 +13,18 @@ const About = () => {
               <span >Introduction</span>             </h1>
             <p className="home-about-body">
               Hi, I am Akash Giri
-              and I'm originally from Nepal and Currently in Toronto, Ontario
               <br />
               <br />
               I graduated with a Bachelor's degree in Computer Engineering in
-              2020 and currently pursuing Ontario Graduate Certificate in
-              Computer Software and Database Development.
+              October, 2020 and also completed Ontario Graduate Certificate in
+              Computer Software and Database Development in August, 2024
+              <br/>
               <br />
               As a
                 {" "}
-                Software developer with professional experience of almost 3
+                Software developer with professional experience of almost 4
                 years in Front-end based on React and Mobile Application Development based on React Native{" "}
-              , I enjoy tackling new challenges and continuously expanding my
+              , I enjoy tackling new challenges and continuously expanding my skillset
               skillset.
               <br />
               <br />I am proficient in
@@ -46,9 +46,9 @@ const About = () => {
                  React.js
               </i>
               <br />
-              <br />I am also interested in learning and developing new
+              <br />In today's fast-paced technology landscape, AI has become an essential tool for accelerating development. 
               <i>
-                 Web Technologies and Products
+                  {" "}So, I actively utilize AI platforms such as Claude and Antigravity 2.0 to prototype ideas, optimize workflows and build applications more efficiently while maintaining code quality and best practices.
               </i>
               <br />
             </p>
