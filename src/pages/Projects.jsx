@@ -20,16 +20,19 @@ const Projects = () => {
           Here are a few projects that I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+              
+
+        <Col md={8} className="project-card">
             <ProjectCard
               imgPath={akarien}
               isBlog
               title="Akarien: Sasto Wear"
               ghLink={"https://akarien.vercel.app/"}
-              description="Founded in 2026, AKARIÉN sells premium outfits inspired by local aesthetic values"
+              description="Founded in 2026, AKARIÉN is the Ecommerce platform which sells premium outfits inspired by local aesthetic values. This website is developed using HTML, CSS, JavaScript, React(Vite), Context API for State Management and Vercel for production."
             />
           </Col>
-    
+</Row>
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={vinhood}
